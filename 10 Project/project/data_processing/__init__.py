@@ -21,3 +21,13 @@ def categorize_users_by_city_length(users: List[Dict[str, Any]]) -> Dict[str, Li
             case _:
                 categorized_users['large'].append(user)
     return categorized_users
+
+# function to group users by their company name (from company.name) using a dictionary.
+def group_users_by_company(users: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
+    company_groups: Dict[str, List[Dict[str, Any]]] = {}
+    for user in users:
+        company_name = user.get('company', {}).get('name', 'Unknown')
+        if company_name not in company_groups:
+            company_groups[company_name] = []
+        company_groups[company_name].append(user)
+    return company_groups

@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os
 
 from api_requests.fetch_users import fetch_users
-from data_processing import filter_by_city
+from data_processing import filter_by_city, group_users_by_company
 from data_processing import categorize_users_by_city_length
 
 
@@ -27,6 +27,7 @@ def menu() -> str:
 def data_processing_menu() -> str:
     print("1. Filter user by city")
     print("2. Filter user by City Length")
+    print("3. Group users by Company")
     choice = input("Enter your choice: ")
     return choice
 
@@ -71,12 +72,23 @@ if __name__ == "__main__":
                              city, len(filtered_users))
 
             elif data_choice == "2":
-                categorized_users = categorize_users_by_city_length(users)
-                logging.info("Users with small city length : %d",
-                             len(categorized_users['small']))
-                logging.info("Users with large city length : %d",
-                             len(categorized_users['large']))
-
+                try:
+                    categorized_users = categorize_users_by_city_length(users)
+                    logging.info("Users with small city length : %d",
+                                 len(categorized_users['small']))
+                    logging.info("Users with large city length : %d",
+                                 len(categorized_users['large']))
+                except Exception as e:
+                    logging.error(
+                        "Error categorizing users by city length: %s", e)
+            elif data_choice == "3":
+                try:
+                    company_groups = group_users_by_company(users)
+                    for company, group in company_groups.items():
+                        logging.info("Company: %s, Users: %d",
+                                     company, len(group))
+                except Exception as e:
+                    logging.error("Error grouping users by company: %s", e)
             else:
                 logging.warning("Invalid choice in data processing menu.")
         else:
