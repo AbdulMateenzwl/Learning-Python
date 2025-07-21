@@ -7,6 +7,7 @@ import os
 from api_requests.fetch_users import fetch_users
 from data_processing import filter_by_city, group_users_by_company
 from data_processing import categorize_users_by_city_length
+from file_operations import save_users_to_csv, read_users_from_csv
 
 
 # Load environment variables
@@ -20,6 +21,7 @@ logging.basicConfig(level=logging.INFO,
 def menu() -> str:
     print("\n 1. Fetch and Parse JSON Data")
     print(" 2. Data Processing with Collections and Control Flow")
+    print(" 3. Save and Read Users from CSV")
     choice = input("Enter your choice: ")
     return choice
 
@@ -42,7 +44,7 @@ def load_user_by_default() -> List[Dict[str, Any]]:
 
 if __name__ == "__main__":
     users: List[Dict[str, Any]] = []
-
+    filtered_users: List[Dict[str, Any]] = []
     # During Development
     users = load_user_by_default()
     while True:
@@ -91,5 +93,17 @@ if __name__ == "__main__":
                     logging.error("Error grouping users by company: %s", e)
             else:
                 logging.warning("Invalid choice in data processing menu.")
+
+        elif user_choice == "3":
+            filename = input(
+                "Enter filename to save users (or press Enter for default): ")
+            if not filename:
+                filename = ""
+            file_path = save_users_to_csv(users, filename)
+            logging.info(f"Users saved to {file_path}")
+
+            logging.info("Reading from CSV file...")
+            read_users = read_users_from_csv(file_path)
+            logging.info(f"Read {len(read_users)} users from {file_path}")
         else:
             logging.warning("Invalid choice.")
