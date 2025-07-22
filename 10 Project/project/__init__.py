@@ -1,6 +1,7 @@
 
 from typing import List, Dict, Any
 import logging
+from datetime import datetime
 
 from .config import config
 
@@ -45,6 +46,10 @@ def load_user_by_default() -> List[Dict[str, Any]]:
 def init() -> None:
     users: List[Dict[str, Any]] = []
     filtered_users: List[Dict[str, Any]] = []
+    
+    # Display startup timestamp
+    logger.info(f"Application started")
+    
     # During Development
     users = load_user_by_default()
     while True:
@@ -106,6 +111,7 @@ def init() -> None:
 
             case "4":
                 try:
+                    logger.info(f"Starting email domain extraction")
                     email_domains = extract_email_domains(users)
                     logger.info(f"Extracted {len(email_domains)} unique email domains")
                     for domain in email_domains:

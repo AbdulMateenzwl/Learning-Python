@@ -3,6 +3,7 @@ import logging
 from pathlib import Path
 from dotenv import load_dotenv
 from typing import Optional
+from datetime import datetime
 
 
 class Config:
@@ -23,13 +24,17 @@ class Config:
         self.output_dir: Path = Path("output")
         
     def setup_logging(self) -> None:
-        """Configure application logging."""
+        """Configure application logging with timestamp."""
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        log_filename = f'app_{timestamp}.log'
+        
         logging.basicConfig(
             level=getattr(logging, self.log_level.upper()),
-            format= "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+            format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+            datefmt="%Y-%m-%d %H:%M:%S",
             handlers=[
                 logging.StreamHandler(),
-                logging.FileHandler('app.log')
+                logging.FileHandler(log_filename)
             ]
         )
         
