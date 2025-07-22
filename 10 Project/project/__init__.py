@@ -9,7 +9,8 @@ from .api_requests.fetch_users import fetch_users
 from .data_processing import (
     filter_by_city,
     group_users_by_company,
-    categorize_users_by_city_length
+    categorize_users_by_city_length,
+    extract_email_domains
 )
 
 from . import file_operations as file_ops
@@ -23,6 +24,7 @@ def menu() -> str:
     print("\n 1. Fetch and Parse JSON Data")
     print(" 2. Data Processing with Collections and Control Flow")
     print(" 3. Save and Read Users from CSV")
+    print(" 4. Extract Email Domains")
     choice = input("Enter your choice: ")
     return choice
 
@@ -101,6 +103,15 @@ def init() -> None:
                 logger.info("Reading from CSV file...")
                 read_users = file_ops.read_users_from_csv(file_path)
                 logger.info(f"Read {len(read_users)} users from {file_path}")
+
+            case "4":
+                try:
+                    email_domains = extract_email_domains(users)
+                    logger.info(f"Extracted {len(email_domains)} unique email domains")
+                    for domain in email_domains:
+                        logger.info("Extracted email domain: %s", domain)
+                except Exception as e:
+                    logger.error("Error extracting email domains: %s", e)
 
             case "0":
                 logger.info("Exiting application...")
