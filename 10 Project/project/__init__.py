@@ -1,21 +1,22 @@
 
 from typing import List, Dict, Any
 import logging
-from dotenv import load_dotenv
-import os
 
-from api_requests.fetch_users import fetch_users
-from data_processing import filter_by_city, group_users_by_company
-from data_processing import categorize_users_by_city_length
-from file_operations import save_users_to_csv, read_users_from_csv
+from .config import config
 
+from .api_requests.fetch_users import fetch_users
 
-# Load environment variables
-load_dotenv()
+from .data_processing import (
+    filter_by_city,
+    group_users_by_company,
+    categorize_users_by_city_length
+)
 
-# Configure logging
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+from . import file_operations as file_ops
+
+# Initialize configuration and logging
+config.setup_logging()
+logger = logging.getLogger(__name__)
 
 
 def menu() -> str:
@@ -35,14 +36,11 @@ def data_processing_menu() -> str:
 
 
 def load_user_by_default() -> List[Dict[str, Any]]:
-    url = os.getenv("API_URL")
-    if not url:
-        return []
-    users = fetch_users(url)
+    users = fetch_users(config.api_url or "")
     return users
 
 
-if __name__ == "__main__":
+def init():
     users: List[Dict[str, Any]] = []
     filtered_users: List[Dict[str, Any]] = []
     # During Development
@@ -51,17 +49,10 @@ if __name__ == "__main__":
         user_choice = menu()
         if user_choice == "1":
             try:
-                logging.info("Fetching users from API...")
-                # Fetch users from the API
-                url = os.getenv("API_URL")
-                if not url:
-                    logging.error("API_URL environment variable is not set.")
-                    break
-
-                users = fetch_users(url)
-
-                logging.info("Fetched users successfully.")
-                logging.info("Total users fetched: %d", len(users))
+                logger.info("Fetching users from API...")
+                users = fetch_users(config.api_url or "")
+                logger.info("Fetched users successfully.")
+                logger.info("Total users fetched: %d", len(users))
             except Exception as e:
                 logging.error("Error fetching users: %s", e)
 
@@ -70,40 +61,49 @@ if __name__ == "__main__":
             if data_choice == "1":
                 city = input("Enter city name to filter users: ")
                 filtered_users = filter_by_city(users, city)
-                logging.info("Filtered users by city '%s': %d",
-                             city, len(filtered_users))
+                logger.info("Filtered users by city '%s': %d",
+                            city, len(filtered_users))
 
             elif data_choice == "2":
                 try:
                     categorized_users = categorize_users_by_city_length(users)
-                    logging.info("Users with small city length : %d",
-                                 len(categorized_users['small']))
-                    logging.info("Users with large city length : %d",
-                                 len(categorized_users['large']))
+                    logger.info("Users with small city length: %d",
+                                len(categorized_users['small']))
+                    logger.info("Users with large city length: %d",
+                                len(categorized_users['large']))
                 except Exception as e:
-                    logging.error(
+                    logger.error(
                         "Error categorizing users by city length: %s", e)
             elif data_choice == "3":
                 try:
                     company_groups = group_users_by_company(users)
                     for company, group in company_groups.items():
-                        logging.info("Company: %s, Users: %d",
-                                     company, len(group))
+                        logger.info("Company: %s, Users: %d",
+                                    company, len(group))
                 except Exception as e:
-                    logging.error("Error grouping users by company: %s", e)
+                    logger.error("Error grouping users by company: %s", e)
             else:
-                logging.warning("Invalid choice in data processing menu.")
+                logger.warning("Invalid choice in data processing menu.")
 
         elif user_choice == "3":
             filename = input(
                 "Enter filename to save users (or press Enter for default): ")
             if not filename:
                 filename = ""
-            file_path = save_users_to_csv(users, filename)
-            logging.info(f"Users saved to {file_path}")
+            file_path = file_ops.save_users_to_csv(users, filename)
+            logger.info(f"Users saved to {file_path}")
 
-            logging.info("Reading from CSV file...")
-            read_users = read_users_from_csv(file_path)
-            logging.info(f"Read {len(read_users)} users from {file_path}")
+            logger.info("Reading from CSV file...")
+            read_users = file_ops.read_users_from_csv(file_path)
+            logger.info(f"Read {len(read_users)} users from {file_path}")
+
+        elif user_choice == "0":
+            logger.info("Exiting application... Thanks for using the demo!")
+            break
+
         else:
-            logging.warning("Invalid choice.")
+            logger.warning("Invalid choice. Please select 0-6.")
+
+
+if __name__ == "__main__":
+    init()
