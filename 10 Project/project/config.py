@@ -8,7 +8,7 @@ from typing import Optional
 class Config:
     """Application configuration class."""
     
-    def __init__(self):
+    def __init__(self) -> None:
         """Initialize configuration by loading environment variables."""
         # Load environment variables from .env file
         load_dotenv()
