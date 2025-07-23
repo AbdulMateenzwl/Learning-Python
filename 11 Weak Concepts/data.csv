@@ -1,0 +1,359 @@
+description,industry,level,size,line_code,value
+Business main customer: individuals or households,total,0,6�19 employees,C0300.01,15639
+Business main customer: individuals or households,total,0,20�49 employees,C0300.01,2943
+Business main customer: individuals or households,total,0,50�99 employees,C0300.01,639
+Business main customer: individuals or households,total,0,100+ employees,C0300.01,555
+Business main customer: individuals or households,"Agriculture, forestry, & fishing",1,total,C0300.01,348
+Business main customer: individuals or households,Agriculture,2,total,C0300.01,177
+Business main customer: individuals or households,Commercial fishing,2,total,C0300.01,3
+Business main customer: individuals or households,Forestry & logging,2,total,C0300.01,12
+Business main customer: individuals or households,"Agriculture, forestry, & fishing support services",2,total,C0300.01,159
+Business main customer: individuals or households,Mining,1,total,C0300.01,12
+Business main customer: individuals or households,Manufacturing,1,total,C0300.01,1230
+Business main customer: individuals or households,"Food, beverage, & tobacco",2,total,C0300.01,462
+Business main customer: individuals or households,"Textile, clothing, footwear, & leather",2,total,C0300.01,66
+Business main customer: individuals or households,Wood & paper product,2,total,C0300.01,117
+Business main customer: individuals or households,"Printing, publishing, & recorded media",2,total,C0300.01,3
+Business main customer: individuals or households,"Petroleum, coal, chemical, & associated product",2,total,C0300.01,54
+Business main customer: individuals or households,Non-metallic mineral product,2,total,C0300.01,54
+Business main customer: individuals or households,Metal product,2,total,C0300.01,153
+Business main customer: individuals or households,Transport and industrial machinery & equipment,2,total,C0300.01,189
+Business main customer: individuals or households,Other machinery & equipment,2,total,C0300.01,12
+Business main customer: individuals or households,Other manufacturing,2,total,C0300.01,120
+Business main customer: individuals or households,"Electricity, gas, water, & waste services",1,total,C0300.01,51
+Business main customer: individuals or households,Construction,1,total,C0300.01,2544
+Business main customer: individuals or households,Wholesale trade,1,total,C0300.01,387
+Business main customer: individuals or households,Machinery & equipment wholesaling,2,total,C0300.01,48
+Business main customer: individuals or households,Other wholesale trade,2,total,C0300.01,336
+Business main customer: individuals or households,Retail trade,1,total,C0300.01,3558
+Business main customer: individuals or households,Accommodation & food services,1,total,C0300.01,5598
+Business main customer: individuals or households,"Transport, postal, & warehousing",1,total,C0300.01,372
+Business main customer: individuals or households,Information media & telecommunications,1,total,C0300.01,123
+Business main customer: individuals or households,Publishing,2,total,C0300.01,27
+Business main customer: individuals or households,Motion picture,2,total,C0300.01,69
+Business main customer: individuals or households,Telecommunications,2,total,C0300.01,27
+Business main customer: individuals or households,Financial & insurance services,1,total,C0300.01,273
+Business main customer: individuals or households,Finance,2,total,C0300.01,81
+Business main customer: individuals or households,Insurance,2,total,C0300.01,21
+Business main customer: individuals or households,Auxiliary,2,total,C0300.01,174
+Business main customer: individuals or households,"Rental, hiring, & real estate services",1,total,C0300.01,453
+Business main customer: individuals or households,"Professional, scientific, & technical services",1,total,C0300.01,1191
+Business main customer: individuals or households,Computer systems design,2,total,C0300.01,27
+Business main customer: individuals or households,Other professional scientific,2,total,C0300.01,1167
+Business main customer: individuals or households,Administrative & support services,1,total,C0300.01,369
+Business main customer: individuals or households,Education & training,1,total,C0300.01,603
+Business main customer: individuals or households,Health care & social assistance,1,total,C0300.01,1725
+Business main customer: individuals or households,Arts & recreation services,1,total,C0300.01,453
+Business main customer: individuals or households,Other services,1,total,C0300.01,480
+Business main customer: individuals or households,total,0,total,C0300.01,19776
+Business main customer: businesses within same group,total,0,6�19 employees,C0300.02,2970
+Business main customer: businesses within same group,total,0,20�49 employees,C0300.02,756
+Business main customer: businesses within same group,total,0,50�99 employees,C0300.02,231
+Business main customer: businesses within same group,total,0,100+ employees,C0300.02,189
+Business main customer: businesses within same group,"Agriculture, forestry, & fishing",1,total,C0300.02,339
+Business main customer: businesses within same group,Agriculture,2,total,C0300.02,240
+Business main customer: businesses within same group,Commercial fishing,2,total,C0300.02,12
+Business main customer: businesses within same group,Forestry & logging,2,total,C0300.02,30
+Business main customer: businesses within same group,"Agriculture, forestry, & fishing support services",2,total,C0300.02,60
+Business main customer: businesses within same group,Mining,1,total,C0300.02,21
+Business main customer: businesses within same group,Manufacturing,1,total,C0300.02,393
+Business main customer: businesses within same group,"Food, beverage, & tobacco",2,total,C0300.02,90
+Business main customer: businesses within same group,"Textile, clothing, footwear, & leather",2,total,C0300.02,21
+Business main customer: businesses within same group,Wood & paper product,2,total,C0300.02,39
+Business main customer: businesses within same group,"Printing, publishing, & recorded media",2,total,C0300.02,24
+Business main customer: businesses within same group,"Petroleum, coal, chemical, & associated product",2,total,C0300.02,27
+Business main customer: businesses within same group,Non-metallic mineral product,2,total,C0300.02,24
+Business main customer: businesses within same group,Metal product,2,total,C0300.02,51
+Business main customer: businesses within same group,Transport and industrial machinery & equipment,2,total,C0300.02,72
+Business main customer: businesses within same group,Other machinery & equipment,2,total,C0300.02,24
+Business main customer: businesses within same group,Other manufacturing,2,total,C0300.02,18
+Business main customer: businesses within same group,"Electricity, gas, water, & waste services",1,total,C0300.02,27
+Business main customer: businesses within same group,Construction,1,total,C0300.02,984
+Business main customer: businesses within same group,Wholesale trade,1,total,C0300.02,243
+Business main customer: businesses within same group,Machinery & equipment wholesaling,2,total,C0300.02,96
+Business main customer: businesses within same group,Other wholesale trade,2,total,C0300.02,147
+Business main customer: businesses within same group,Retail trade,1,total,C0300.02,264
+Business main customer: businesses within same group,Accommodation & food services,1,total,C0300.02,234
+Business main customer: businesses within same group,"Transport, postal, & warehousing",1,total,C0300.02,198
+Business main customer: businesses within same group,Information media & telecommunications,1,total,C0300.02,57
+Business main customer: businesses within same group,Publishing,2,total,C0300.02,30
+Business main customer: businesses within same group,Motion picture,2,total,C0300.02,6
+Business main customer: businesses within same group,Telecommunications,2,total,C0300.02,18
+Business main customer: businesses within same group,Financial & insurance services,1,total,C0300.02,102
+Business main customer: businesses within same group,Finance,2,total,C0300.02,51
+Business main customer: businesses within same group,Insurance,2,total,C0300.02,6
+Business main customer: businesses within same group,Auxiliary,2,total,C0300.02,48
+Business main customer: businesses within same group,"Rental, hiring, & real estate services",1,total,C0300.02,213
+Business main customer: businesses within same group,"Professional, scientific, & technical services",1,total,C0300.02,519
+Business main customer: businesses within same group,Computer systems design,2,total,C0300.02,138
+Business main customer: businesses within same group,Other professional scientific,2,total,C0300.02,384
+Business main customer: businesses within same group,Administrative & support services,1,total,C0300.02,336
+Business main customer: businesses within same group,Education & training,1,total,C0300.02,33
+Business main customer: businesses within same group,Health care & social assistance,1,total,C0300.02,87
+Business main customer: businesses within same group,Arts & recreation services,1,total,C0300.02,18
+Business main customer: businesses within same group,Other services,1,total,C0300.02,72
+Business main customer: businesses within same group,total,0,total,C0300.02,4146
+Business main customer: retailers or wholesalers outside business group,total,0,6�19 employees,C0300.03,4290
+Business main customer: retailers or wholesalers outside business group,total,0,20�49 employees,C0300.03,1062
+Business main customer: retailers or wholesalers outside business group,total,0,50�99 employees,C0300.03,438
+Business main customer: retailers or wholesalers outside business group,total,0,100+ employees,C0300.03,339
+Business main customer: retailers or wholesalers outside business group,"Agriculture, forestry, & fishing",1,total,C0300.03,1188
+Business main customer: retailers or wholesalers outside business group,Agriculture,2,total,C0300.03,1077
+Business main customer: retailers or wholesalers outside business group,Commercial fishing,2,total,C0300.03,18
+Business main customer: retailers or wholesalers outside business group,Forestry & logging,2,total,C0300.03,33
+Business main customer: retailers or wholesalers outside business group,"Agriculture, forestry, & fishing support services",2,total,C0300.03,63
+Business main customer: retailers or wholesalers outside business group,Mining,1,total,C0300.03,12
+Business main customer: retailers or wholesalers outside business group,Manufacturing,1,total,C0300.03,1644
+Business main customer: retailers or wholesalers outside business group,"Food, beverage, & tobacco",2,total,C0300.03,624
+Business main customer: retailers or wholesalers outside business group,"Textile, clothing, footwear, & leather",2,total,C0300.03,102
+Business main customer: retailers or wholesalers outside business group,Wood & paper product,2,total,C0300.03,198
+Business main customer: retailers or wholesalers outside business group,"Printing, publishing, & recorded media",2,total,C0300.03,60
+Business main customer: retailers or wholesalers outside business group,"Petroleum, coal, chemical, & associated product",2,total,C0300.03,174
+Business main customer: retailers or wholesalers outside business group,Non-metallic mineral product,2,total,C0300.03,36
+Business main customer: retailers or wholesalers outside business group,Metal product,2,total,C0300.03,186
+Business main customer: retailers or wholesalers outside business group,Transport and industrial machinery & equipment,2,total,C0300.03,99
+Business main customer: retailers or wholesalers outside business group,Other machinery & equipment,2,total,C0300.03,57
+Business main customer: retailers or wholesalers outside business group,Other manufacturing,2,total,C0300.03,111
+Business main customer: retailers or wholesalers outside business group,"Electricity, gas, water, & waste services",1,total,C0300.03,33
+Business main customer: retailers or wholesalers outside business group,Construction,1,total,C0300.03,267
+Business main customer: retailers or wholesalers outside business group,Wholesale trade,1,total,C0300.03,1440
+Business main customer: retailers or wholesalers outside business group,Machinery & equipment wholesaling,2,total,C0300.03,225
+Business main customer: retailers or wholesalers outside business group,Other wholesale trade,2,total,C0300.03,1215
+Business main customer: retailers or wholesalers outside business group,Retail trade,1,total,C0300.03,270
+Business main customer: retailers or wholesalers outside business group,Accommodation & food services,1,total,C0300.03,384
+Business main customer: retailers or wholesalers outside business group,"Transport, postal, & warehousing",1,total,C0300.03,261
+Business main customer: retailers or wholesalers outside business group,Information media & telecommunications,1,total,C0300.03,51
+Business main customer: retailers or wholesalers outside business group,Publishing,2,total,C0300.03,24
+Business main customer: retailers or wholesalers outside business group,Motion picture,2,total,C0300.03,6
+Business main customer: retailers or wholesalers outside business group,Telecommunications,2,total,C0300.03,15
+Business main customer: retailers or wholesalers outside business group,Financial & insurance services,1,total,C0300.03,57
+Business main customer: retailers or wholesalers outside business group,Finance,2,total,C0300.03,15
+Business main customer: retailers or wholesalers outside business group,Insurance,2,total,C0300.03,3
+Business main customer: retailers or wholesalers outside business group,Auxiliary,2,total,C0300.03,45
+Business main customer: retailers or wholesalers outside business group,"Rental, hiring, & real estate services",1,total,C0300.03,57
+Business main customer: retailers or wholesalers outside business group,"Professional, scientific, & technical services",1,total,C0300.03,216
+Business main customer: retailers or wholesalers outside business group,Computer systems design,2,total,C0300.03,93
+Business main customer: retailers or wholesalers outside business group,Other professional scientific,2,total,C0300.03,126
+Business main customer: retailers or wholesalers outside business group,Administrative & support services,1,total,C0300.03,111
+Business main customer: retailers or wholesalers outside business group,Education & training,1,total,C0300.03,12
+Business main customer: retailers or wholesalers outside business group,Health care & social assistance,1,total,C0300.03,0
+Business main customer: retailers or wholesalers outside business group,Arts & recreation services,1,total,C0300.03,3
+Business main customer: retailers or wholesalers outside business group,Other services,1,total,C0300.03,120
+Business main customer: retailers or wholesalers outside business group,total,0,total,C0300.03,6132
+Business main customer: other businesses outside business group,total,0,6�19 employees,C0300.04,12555
+Business main customer: other businesses outside business group,total,0,20�49 employees,C0300.04,3282
+Business main customer: other businesses outside business group,total,0,50�99 employees,C0300.04,1020
+Business main customer: other businesses outside business group,total,0,100+ employees,C0300.04,705
+Business main customer: other businesses outside business group,"Agriculture, forestry, & fishing",1,total,C0300.04,2019
+Business main customer: other businesses outside business group,Agriculture,2,total,C0300.04,1095
+Business main customer: other businesses outside business group,Commercial fishing,2,total,C0300.04,15
+Business main customer: other businesses outside business group,Forestry & logging,2,total,C0300.04,204
+Business main customer: other businesses outside business group,"Agriculture, forestry, & fishing support services",2,total,C0300.04,702
+Business main customer: other businesses outside business group,Mining,1,total,C0300.04,75
+Business main customer: other businesses outside business group,Manufacturing,1,total,C0300.04,2517
+Business main customer: other businesses outside business group,"Food, beverage, & tobacco",2,total,C0300.04,108
+Business main customer: other businesses outside business group,"Textile, clothing, footwear, & leather",2,total,C0300.04,93
+Business main customer: other businesses outside business group,Wood & paper product,2,total,C0300.04,189
+Business main customer: other businesses outside business group,"Printing, publishing, & recorded media",2,total,C0300.04,129
+Business main customer: other businesses outside business group,"Petroleum, coal, chemical, & associated product",2,total,C0300.04,213
+Business main customer: other businesses outside business group,Non-metallic mineral product,2,total,C0300.04,117
+Business main customer: other businesses outside business group,Metal product,2,total,C0300.04,696
+Business main customer: other businesses outside business group,Transport and industrial machinery & equipment,2,total,C0300.04,657
+Business main customer: other businesses outside business group,Other machinery & equipment,2,total,C0300.04,156
+Business main customer: other businesses outside business group,Other manufacturing,2,total,C0300.04,159
+Business main customer: other businesses outside business group,"Electricity, gas, water, & waste services",1,total,C0300.04,96
+Business main customer: other businesses outside business group,Construction,1,total,C0300.04,3594
+Business main customer: other businesses outside business group,Wholesale trade,1,total,C0300.04,1341
+Business main customer: other businesses outside business group,Machinery & equipment wholesaling,2,total,C0300.04,645
+Business main customer: other businesses outside business group,Other wholesale trade,2,total,C0300.04,693
+Business main customer: other businesses outside business group,Retail trade,1,total,C0300.04,732
+Business main customer: other businesses outside business group,Accommodation & food services,1,total,C0300.04,396
+Business main customer: other businesses outside business group,"Transport, postal, & warehousing",1,total,C0300.04,1017
+Business main customer: other businesses outside business group,Information media & telecommunications,1,total,C0300.04,207
+Business main customer: other businesses outside business group,Publishing,2,total,C0300.04,90
+Business main customer: other businesses outside business group,Motion picture,2,total,C0300.04,57
+Business main customer: other businesses outside business group,Telecommunications,2,total,C0300.04,60
+Business main customer: other businesses outside business group,Financial & insurance services,1,total,C0300.04,237
+Business main customer: other businesses outside business group,Finance,2,total,C0300.04,48
+Business main customer: other businesses outside business group,Insurance,2,total,C0300.04,12
+Business main customer: other businesses outside business group,Auxiliary,2,total,C0300.04,180
+Business main customer: other businesses outside business group,"Rental, hiring, & real estate services",1,total,C0300.04,297
+Business main customer: other businesses outside business group,"Professional, scientific, & technical services",1,total,C0300.04,2931
+Business main customer: other businesses outside business group,Computer systems design,2,total,C0300.04,657
+Business main customer: other businesses outside business group,Other professional scientific,2,total,C0300.04,2274
+Business main customer: other businesses outside business group,Administrative & support services,1,total,C0300.04,963
+Business main customer: other businesses outside business group,Education & training,1,total,C0300.04,120
+Business main customer: other businesses outside business group,Health care & social assistance,1,total,C0300.04,189
+Business main customer: other businesses outside business group,Arts & recreation services,1,total,C0300.04,54
+Business main customer: other businesses outside business group,Other services,1,total,C0300.04,777
+Business main customer: other businesses outside business group,total,0,total,C0300.04,17562
+Business main customer: government,total,0,6�19 employees,C0300.05,2274
+Business main customer: government,total,0,20�49 employees,C0300.05,672
+Business main customer: government,total,0,50�99 employees,C0300.05,282
+Business main customer: government,total,0,100+ employees,C0300.05,204
+Business main customer: government,"Agriculture, forestry, & fishing",1,total,C0300.05,54
+Business main customer: government,Agriculture,2,total,C0300.05,24
+Business main customer: government,Commercial fishing,2,total,C0300.05,3
+Business main customer: government,Forestry & logging,2,total,C0300.05,0
+Business main customer: government,"Agriculture, forestry, & fishing support services",2,total,C0300.05,30
+Business main customer: government,Mining,1,total,C0300.05,0
+Business main customer: government,Manufacturing,1,total,C0300.05,72
+Business main customer: government,"Food, beverage, & tobacco",2,total,C0300.05,0
+Business main customer: government,"Textile, clothing, footwear, & leather",2,total,C0300.05,0
+Business main customer: government,Wood & paper product,2,total,C0300.05,3
+Business main customer: government,"Printing, publishing, & recorded media",2,total,C0300.05,0
+Business main customer: government,"Petroleum, coal, chemical, & associated product",2,total,C0300.05,24
+Business main customer: government,Non-metallic mineral product,2,total,C0300.05,9
+Business main customer: government,Metal product,2,total,C0300.05,15
+Business main customer: government,Transport and industrial machinery & equipment,2,total,C0300.05,3
+Business main customer: government,Other machinery & equipment,2,total,C0300.05,12
+Business main customer: government,Other manufacturing,2,total,C0300.05,12
+Business main customer: government,"Electricity, gas, water, & waste services",1,total,C0300.05,21
+Business main customer: government,Construction,1,total,C0300.05,249
+Business main customer: government,Wholesale trade,1,total,C0300.05,57
+Business main customer: government,Machinery & equipment wholesaling,2,total,C0300.05,33
+Business main customer: government,Other wholesale trade,2,total,C0300.05,21
+Business main customer: government,Retail trade,1,total,C0300.05,576
+Business main customer: government,Accommodation & food services,1,total,C0300.05,189
+Business main customer: government,"Transport, postal, & warehousing",1,total,C0300.05,69
+Business main customer: government,Information media & telecommunications,1,total,C0300.05,33
+Business main customer: government,Publishing,2,total,C0300.05,12
+Business main customer: government,Motion picture,2,total,C0300.05,15
+Business main customer: government,Telecommunications,2,total,C0300.05,6
+Business main customer: government,Financial & insurance services,1,total,C0300.05,6
+Business main customer: government,Finance,2,total,C0300.05,3
+Business main customer: government,Insurance,2,total,C0300.05,0
+Business main customer: government,Auxiliary,2,total,C0300.05,6
+Business main customer: government,"Rental, hiring, & real estate services",1,total,C0300.05,12
+Business main customer: government,"Professional, scientific, & technical services",1,total,C0300.05,381
+Business main customer: government,Computer systems design,2,total,C0300.05,87
+Business main customer: government,Other professional scientific,2,total,C0300.05,297
+Business main customer: government,Administrative & support services,1,total,C0300.05,108
+Business main customer: government,Education & training,1,total,C0300.05,393
+Business main customer: government,Health care & social assistance,1,total,C0300.05,1173
+Business main customer: government,Arts & recreation services,1,total,C0300.05,12
+Business main customer: government,Other services,1,total,C0300.05,15
+Business main customer: government,total,0,total,C0300.05,3432
+Proportion of customers on long term price contract: zero,total,0,6�19 employees,C0400.01,20001
+Proportion of customers on long term price contract: zero,total,0,20�49 employees,C0400.01,3798
+Proportion of customers on long term price contract: zero,total,0,50�99 employees,C0400.01,894
+Proportion of customers on long term price contract: zero,total,0,100+ employees,C0400.01,648
+Proportion of customers on long term price contract: zero,"Agriculture, forestry, & fishing",1,total,C0400.01,2049
+Proportion of customers on long term price contract: zero,Agriculture,2,total,C0400.01,1398
+Proportion of customers on long term price contract: zero,Commercial fishing,2,total,C0400.01,30
+Proportion of customers on long term price contract: zero,Forestry & logging,2,total,C0400.01,117
+Proportion of customers on long term price contract: zero,"Agriculture, forestry, & fishing support services",2,total,C0400.01,504
+Proportion of customers on long term price contract: zero,Mining,1,total,C0400.01,36
+Proportion of customers on long term price contract: zero,Manufacturing,1,total,C0400.01,3087
+Proportion of customers on long term price contract: zero,"Food, beverage, & tobacco",2,total,C0400.01,660
+Proportion of customers on long term price contract: zero,"Textile, clothing, footwear, & leather",2,total,C0400.01,153
+Proportion of customers on long term price contract: zero,Wood & paper product,2,total,C0400.01,330
+Proportion of customers on long term price contract: zero,"Printing, publishing, & recorded media",2,total,C0400.01,78
+Proportion of customers on long term price contract: zero,"Petroleum, coal, chemical, & associated product",2,total,C0400.01,207
+Proportion of customers on long term price contract: zero,Non-metallic mineral product,2,total,C0400.01,114
+Proportion of customers on long term price contract: zero,Metal product,2,total,C0400.01,618
+Proportion of customers on long term price contract: zero,Transport and industrial machinery & equipment,2,total,C0400.01,567
+Proportion of customers on long term price contract: zero,Other machinery & equipment,2,total,C0400.01,99
+Proportion of customers on long term price contract: zero,Other manufacturing,2,total,C0400.01,258
+Proportion of customers on long term price contract: zero,"Electricity, gas, water, & waste services",1,total,C0400.01,63
+Proportion of customers on long term price contract: zero,Construction,1,total,C0400.01,3249
+Proportion of customers on long term price contract: zero,Wholesale trade,1,total,C0400.01,1602
+Proportion of customers on long term price contract: zero,Machinery & equipment wholesaling,2,total,C0400.01,390
+Proportion of customers on long term price contract: zero,Other wholesale trade,2,total,C0400.01,1212
+Proportion of customers on long term price contract: zero,Retail trade,1,total,C0400.01,3357
+Proportion of customers on long term price contract: zero,Accommodation & food services,1,total,C0400.01,5433
+Proportion of customers on long term price contract: zero,"Transport, postal, & warehousing",1,total,C0400.01,555
+Proportion of customers on long term price contract: zero,Information media & telecommunications,1,total,C0400.01,126
+Proportion of customers on long term price contract: zero,Publishing,2,total,C0400.01,33
+Proportion of customers on long term price contract: zero,Motion picture,2,total,C0400.01,84
+Proportion of customers on long term price contract: zero,Telecommunications,2,total,C0400.01,6
+Proportion of customers on long term price contract: zero,Financial & insurance services,1,total,C0400.01,201
+Proportion of customers on long term price contract: zero,Finance,2,total,C0400.01,63
+Proportion of customers on long term price contract: zero,Insurance,2,total,C0400.01,6
+Proportion of customers on long term price contract: zero,Auxiliary,2,total,C0400.01,132
+Proportion of customers on long term price contract: zero,"Rental, hiring, & real estate services",1,total,C0400.01,411
+Proportion of customers on long term price contract: zero,"Professional, scientific, & technical services",1,total,C0400.01,2010
+Proportion of customers on long term price contract: zero,Computer systems design,2,total,C0400.01,165
+Proportion of customers on long term price contract: zero,Other professional scientific,2,total,C0400.01,1845
+Proportion of customers on long term price contract: zero,Administrative & support services,1,total,C0400.01,594
+Proportion of customers on long term price contract: zero,Education & training,1,total,C0400.01,591
+Proportion of customers on long term price contract: zero,Health care & social assistance,1,total,C0400.01,1062
+Proportion of customers on long term price contract: zero,Arts & recreation services,1,total,C0400.01,249
+Proportion of customers on long term price contract: zero,Other services,1,total,C0400.01,660
+Proportion of customers on long term price contract: zero,total,0,total,C0400.01,25341
+Proportion of customers on long term price contract: 1-25%,total,0,6�19 employees,C0400.02,5379
+Proportion of customers on long term price contract: 1-25%,total,0,20�49 employees,C0400.02,1563
+Proportion of customers on long term price contract: 1-25%,total,0,50�99 employees,C0400.02,537
+Proportion of customers on long term price contract: 1-25%,total,0,100+ employees,C0400.02,399
+Proportion of customers on long term price contract: 1-25%,"Agriculture, forestry, & fishing",1,total,C0400.02,474
+Proportion of customers on long term price contract: 1-25%,Agriculture,2,total,C0400.02,330
+Proportion of customers on long term price contract: 1-25%,Commercial fishing,2,total,C0400.02,3
+Proportion of customers on long term price contract: 1-25%,Forestry & logging,2,total,C0400.02,12
+Proportion of customers on long term price contract: 1-25%,"Agriculture, forestry, & fishing support services",2,total,C0400.02,129
+Proportion of customers on long term price contract: 1-25%,Mining,1,total,C0400.02,24
+Proportion of customers on long term price contract: 1-25%,Manufacturing,1,total,C0400.02,1125
+Proportion of customers on long term price contract: 1-25%,"Food, beverage, & tobacco",2,total,C0400.02,210
+Proportion of customers on long term price contract: 1-25%,"Textile, clothing, footwear, & leather",2,total,C0400.02,63
+Proportion of customers on long term price contract: 1-25%,Wood & paper product,2,total,C0400.02,84
+Proportion of customers on long term price contract: 1-25%,"Printing, publishing, & recorded media",2,total,C0400.02,72
+Proportion of customers on long term price contract: 1-25%,"Petroleum, coal, chemical, & associated product",2,total,C0400.02,117
+Proportion of customers on long term price contract: 1-25%,Non-metallic mineral product,2,total,C0400.02,45
+Proportion of customers on long term price contract: 1-25%,Metal product,2,total,C0400.02,186
+Proportion of customers on long term price contract: 1-25%,Transport and industrial machinery & equipment,2,total,C0400.02,204
+Proportion of customers on long term price contract: 1-25%,Other machinery & equipment,2,total,C0400.02,60
+Proportion of customers on long term price contract: 1-25%,Other manufacturing,2,total,C0400.02,84
+Proportion of customers on long term price contract: 1-25%,"Electricity, gas, water, & waste services",1,total,C0400.02,48
+Proportion of customers on long term price contract: 1-25%,Construction,1,total,C0400.02,1482
+Proportion of customers on long term price contract: 1-25%,Wholesale trade,1,total,C0400.02,654
+Proportion of customers on long term price contract: 1-25%,Machinery & equipment wholesaling,2,total,C0400.02,243
+Proportion of customers on long term price contract: 1-25%,Other wholesale trade,2,total,C0400.02,408
+Proportion of customers on long term price contract: 1-25%,Retail trade,1,total,C0400.02,618
+Proportion of customers on long term price contract: 1-25%,Accommodation & food services,1,total,C0400.02,432
+Proportion of customers on long term price contract: 1-25%,"Transport, postal, & warehousing",1,total,C0400.02,435
+Proportion of customers on long term price contract: 1-25%,Information media & telecommunications,1,total,C0400.02,96
+Proportion of customers on long term price contract: 1-25%,Publishing,2,total,C0400.02,45
+Proportion of customers on long term price contract: 1-25%,Motion picture,2,total,C0400.02,21
+Proportion of customers on long term price contract: 1-25%,Telecommunications,2,total,C0400.02,30
+Proportion of customers on long term price contract: 1-25%,Financial & insurance services,1,total,C0400.02,39
+Proportion of customers on long term price contract: 1-25%,Finance,2,total,C0400.02,9
+Proportion of customers on long term price contract: 1-25%,Insurance,2,total,C0400.02,3
+Proportion of customers on long term price contract: 1-25%,Auxiliary,2,total,C0400.02,27
+Proportion of customers on long term price contract: 1-25%,"Rental, hiring, & real estate services",1,total,C0400.02,150
+Proportion of customers on long term price contract: 1-25%,"Professional, scientific, & technical services",1,total,C0400.02,1290
+Proportion of customers on long term price contract: 1-25%,Computer systems design,2,total,C0400.02,141
+Proportion of customers on long term price contract: 1-25%,Other professional scientific,2,total,C0400.02,1152
+Proportion of customers on long term price contract: 1-25%,Administrative & support services,1,total,C0400.02,294
+Proportion of customers on long term price contract: 1-25%,Education & training,1,total,C0400.02,78
+Proportion of customers on long term price contract: 1-25%,Health care & social assistance,1,total,C0400.02,237
+Proportion of customers on long term price contract: 1-25%,Arts & recreation services,1,total,C0400.02,105
+Proportion of customers on long term price contract: 1-25%,Other services,1,total,C0400.02,297
+Proportion of customers on long term price contract: 1-25%,total,0,total,C0400.02,7878
+Proportion of customers on long term price contract: 26-50%,total,0,6�19 employees,C0400.03,1992
+Proportion of customers on long term price contract: 26-50%,total,0,20�49 employees,C0400.03,609
+Proportion of customers on long term price contract: 26-50%,total,0,50�99 employees,C0400.03,189
+Proportion of customers on long term price contract: 26-50%,total,0,100+ employees,C0400.03,153
+Proportion of customers on long term price contract: 26-50%,"Agriculture, forestry, & fishing",1,total,C0400.03,75
+Proportion of customers on long term price contract: 26-50%,Agriculture,2,total,C0400.03,45
+Proportion of customers on long term price contract: 26-50%,Commercial fishing,2,total,C0400.03,3
+Proportion of customers on long term price contract: 26-50%,Forestry & logging,2,total,C0400.03,9
+Proportion of customers on long term price contract: 26-50%,"Agriculture, forestry, & fishing support services",2,total,C0400.03,18
+Proportion of customers on long term price contract: 26-50%,Mining,1,total,C0400.03,9
+Proportion of customers on long term price contract: 26-50%,Manufacturing,1,total,C0400.03,429
+Proportion of customers on long term price contract: 26-50%,"Food, beverage, & tobacco",2,total,C0400.03,120
+Proportion of customers on long term price contract: 26-50%,"Textile, clothing, footwear, & leather",2,total,C0400.03,3
+Proportion of customers on long term price contract: 26-50%,Wood & paper product,2,total,C0400.03,39
+Proportion of customers on long term price contract: 26-50%,"Printing, publishing, & recorded media",2,total,C0400.03,27
+Proportion of customers on long term price contract: 26-50%,"Petroleum, coal, chemical, & associated product",2,total,C0400.03,36
+Proportion of customers on long term price contract: 26-50%,Non-metallic mineral product,2,total,C0400.03,6
+Proportion of customers on long term price contract: 26-50%,Metal product,2,total,C0400.03,84
+Proportion of customers on long term price contract: 26-50%,Transport and industrial machinery & equipment,2,total,C0400.03,63
+Proportion of customers on long term price contract: 26-50%,Other machinery & equipment,2,total,C0400.03,21
+Proportion of customers on long term price contract: 26-50%,Other manufacturing,2,total,C0400.03,30
+Proportion of customers on long term price contract: 26-50%,"Electricity, gas, water, & waste services",1,total,C0400.03,15
+Proportion of customers on long term price contract: 26-50%,Construction,1,total,C0400.03,546
+Proportion of customers on long term price contract: 26-50%,Wholesale trade,1,total,C0400.03,246
+Proportion of customers on long term price contract: 26-50%,Machinery & equipment wholesaling,2,total,C0400.03,111
+Proportion of customers on long term price contract: 26-50%,Other wholesale trade,2,total,C0400.03,135
+Proportion of customers on long term price contract: 26-50%,Retail trade,1,total,C0400.03,168
+Proportion of customers on long term price contract: 26-50%,Accommodation & food services,1,total,C0400.03,246
+Proportion of customers on long term price contract: 26-50%,"Transport, postal, & warehousing",1,total,C0400.03,132
